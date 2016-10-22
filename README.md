@@ -1,2 +1,2 @@
 # blog
-Php blog admin panel
+Php blog admin panel (CMS)
