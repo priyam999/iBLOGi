@@ -1,0 +1,32 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteCond %{THE_REQUEST} ^.*/index\.php 
+RewriteRule ^(.*)index\.(php|html?)$ / [R=301,NC,L]
+
+# category
+RewriteRule   ^category/?$ index.php?id=0&page=0  [NC,L]
+RewriteRule   ^category/([A-Za-z0-9]+)/?$ index.php?id=$1&page=0  [NC,L]
+RewriteRule   ^category/([A-Za-z0-9]+)/([0-9]+)/?$ index.php?id=$1&page=$2  [NC,L]
+RewriteRule   ^category/([A-Za-z0-9]+)/([0-9]+)/([A-Za-z0-9]+)/?$ index.php?id=$1&page=$2&title=$3  [NC,L]
+
+# autor
+RewriteRule   ^autor/?$ index.php?id=0&page=0  [NC,L]
+RewriteRule   ^autor/([A-Za-z0-9]+)/?$ index.php?id=$1&page=0  [NC,L]
+RewriteRule   ^autor/([A-Za-z0-9]+)/([0-9]+)/?$ index.php?id=$1&page=$2  [NC,L]
+
+# article, gallery, pages
+RewriteRule   ^article/([A-Za-z0-9]+)/?$ article.php?id=?$1    [NC,L]
+RewriteRule   ^gallery/([A-Za-z0-9]+)/?$ gallery.php?id=?$1    [NC,L]
+
+# custo page rewrite
+RewriteRule   ^page/([A-Za-z0-9]+)/?$ page.php?id=?$1    [NC,L]
+
+# fix folder redirect images and css js/images/css/media
+RewriteRule ^.+?/((img|css|js|media|upload|posts)/.+)$ /blog/$1 [L,R=301,NC]
+
+# user or category user.php
+RewriteRule   ^([A-Za-z0-9]+)/?$ index.php?id=$1  [NC,L]
+
+# example
+#RewriteRule ^([folder])/([category])/([A-Za-z0-9]+)/?$ index.php?id=$3&cat=$2 [NC,L]
