@@ -15,11 +15,11 @@ RewriteRule   ^autor/?$ index.php?id=0&page=0  [NC,L]
 RewriteRule   ^autor/([A-Za-z0-9]+)/?$ index.php?id=$1&page=0  [NC,L]
 RewriteRule   ^autor/([A-Za-z0-9]+)/([0-9]+)/?$ index.php?id=$1&page=$2  [NC,L]
 
-# article, gallery, pages
+# article, gallery
 RewriteRule   ^article/([A-Za-z0-9]+)/?$ article.php?id=?$1    [NC,L]
 RewriteRule   ^gallery/([A-Za-z0-9]+)/?$ gallery.php?id=?$1    [NC,L]
 
-# custo page rewrite
+# custom page rewrite
 RewriteRule   ^page/([A-Za-z0-9]+)/?$ page.php?id=?$1    [NC,L]
 
 # fix folder redirect images and css js/images/css/media
