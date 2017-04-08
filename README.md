@@ -6,4 +6,4 @@ Mysql database: mysql/blog.sql
 Users: admin password: admin
 Users: user password: user
 
-### Blog CMS simple, powerfull cms with ckeditor, plugins, comments, video, image upload.
+### Blog CMS - simple but powerfull cms with ckeditor, plugins, comments, video, image upload.
