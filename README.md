@@ -7,3 +7,5 @@ Users: admin password: admin
 Users: user password: user
 
 ### Blog CMS - simple but powerfull cms with ckeditor, plugins, comments, video, image upload.
+
+### Show blog http://blog.fxstar.eu
