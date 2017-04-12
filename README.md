@@ -9,4 +9,4 @@ Blog CMS with ckeditor, images upload, plugins, code snippets, youtube videos an
 
 ### Blog CMS - simple but powerfull cms with ckeditor, plugins, comments, video, image upload.
 
-### Show blog http://blog.fxstar.eu
+### Show blog demo: http://blog.fxstar.eu
