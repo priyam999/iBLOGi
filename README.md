@@ -1,6 +1,7 @@
-# blog
-Php blog admin panel (CMS)
-Php blog admin panel (User: admin Pass: admin)
+# Blog CMS
+Blog CMS with ckeditor, images upload, plugins, code snippets, youtube videos and comments.
+
+### Php cms blog with admin panel (User: admin Pass: admin)
 Config: admin/config.php
 Mysql database: mysql/blog.sql
 Users: admin password: admin
