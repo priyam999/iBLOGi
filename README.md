@@ -2,10 +2,10 @@
 Blog CMS with ckeditor, images upload, plugins, code snippets, youtube videos and comments.
 
 ### Php cms blog config
--- Config: admin/config.php
--- Mysql database: mysql/blog.sql
--- Users: admin password: admin
--- Users: user password: user
+1. Config: admin/config.php
+2. Mysql database: mysql/blog.sql
+3. Users: admin password: admin
+4. Users: user password: user
 
 ### Blog CMS - simple but powerfull cms with ckeditor, plugins, comments, video, image upload.
 
