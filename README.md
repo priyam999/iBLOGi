@@ -3,7 +3,7 @@ Blog CMS with ckeditor, images upload, plugins, code snippets, youtube videos an
 
 ### Php cms blog
 1. Config: admin/config.php
-2. Mysql database: mysql/blog.sql
+2. Mysql database: mysql/blog-08-04-2017.sql
 3. Users: admin password: admin
 4. Users: user password: user
 
